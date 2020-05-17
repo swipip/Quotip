@@ -82,8 +82,6 @@ class UserLogin: UIViewController {
         textField.textColor = .white
         textField.tintColor = .white
         textField.textAlignment = .left
-        #warning("remove below line")
-        textField.text = "gautier.billard@gmail.com"
         return textField
     }()
     private lazy var passwordTextField: UITextField = {
@@ -94,8 +92,6 @@ class UserLogin: UIViewController {
         textField.textAlignment = .left
         textField.tintColor = .white
         textField.textColor = .white
-        #warning("remove below line")
-        textField.text = "979v7XYYcRwZ@Pk"
         textField.isSecureTextEntry = true
         return textField
     }()
